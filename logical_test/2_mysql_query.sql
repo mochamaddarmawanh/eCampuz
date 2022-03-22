@@ -1,0 +1,1 @@
+SELECT * FROM tb_mahasiswa_nilai JOIN tb_mahasiswa JOIN tb_matakuliah WHERE tb_matakuliah.mk_kode = 'MK303' ORDER BY tb_mahasiswa_nilai.nilai DESC LIMIT 1
